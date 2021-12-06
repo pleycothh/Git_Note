@@ -18,3 +18,7 @@ win: \r \n  IOS \r
 core.autocrlf:
 # to remove the line by defult
 $ git config --global core.autocrlf true / input (OS)
+
+#  get help
+git config --help / -h 
+
