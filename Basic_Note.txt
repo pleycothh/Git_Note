@@ -5,3 +5,16 @@ local: current repo
 $ git config --global user.email ben.li19930119@gmail.com
 $ git config --global user.name "Ben Li"
 
+# to set the defult code editor
+$ git config --global core.editor "code --wait"
+wait: wait until close vscode
+
+# oppen defult config setting
+$ git config --global -e
+
+# end of line
+win: \r \n  IOS \r
+
+core.autocrlf:
+# to remove the line by defult
+$ git config --global core.autocrlf true / input (OS)
