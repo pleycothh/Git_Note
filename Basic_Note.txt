@@ -1,0 +1,7 @@
+system: all users
+global: all repo of current users
+local: current repo 
+
+$ git config --global user.email ben.li19930119@gmail.com
+$ git config --global user.name "Ben Li"
+
